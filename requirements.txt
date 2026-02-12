@@ -2,3 +2,5 @@ fastapi
 uvicorn
 huggingface-hub
 python-dotenv
+edge-tts
+python-multipart
