@@ -7,4 +7,6 @@ if [ "$GEMINI_API_KEY" == "YOUR_API_KEY_HERE" ]; then
     echo "You can get a key from: https://aistudio.google.com/"
     # Continue anyway to let the script handle the warning/input
 fi
-python3 assistant.py
+# Run the assistant client
+# Ensure we use the python from the virtual environment explicitly
+./venv/bin/python assistant.py
