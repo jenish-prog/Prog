@@ -3,10 +3,12 @@ import os
 import subprocess
 import speech_recognition as sr
 from huggingface_hub import InferenceClient
+from dotenv import load_dotenv
 import edge_tts
 import time
 
-# Configure Hugging Face API
+# Load .env file and configure Hugging Face API
+load_dotenv()
 HF_API_KEY = os.getenv("HF_API_KEY")
 if not HF_API_KEY:
     print("WARNING: HF_API_KEY not found in environment variables.")

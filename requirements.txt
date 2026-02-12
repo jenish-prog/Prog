@@ -1,4 +1,5 @@
 SpeechRecognition
 pyaudio
 huggingface-hub
+python-dotenv
 edge-tts
